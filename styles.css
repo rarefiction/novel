@@ -1,13 +1,20 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
-
+p {
+  margin: 200px 5px;
+  font-size: 1rem;
+}
 h1 {
   text-align: center;
   margin: 3rem;
+  position: absolute;
+  z-index: 1;
+  font-size: 4rem;
+  font-weight: 700;
 }
 .container {
-  margin: 10rem;
+  margin: 3rem;
 }
 
 .row {
@@ -26,12 +33,16 @@ h1 {
   height: 6rem;
   width: 6rem;
   line-height: 2;
-  font-size:1rem;
+  font-size: 1rem;
   text-align: center;
 }
 
 .hidden {
   visibility: hidden;
+}
+
+.displayNone {
+  display: none;
 }
 
 .red {
