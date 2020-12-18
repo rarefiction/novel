@@ -1,0 +1,104 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 3rem;
+}
+.container {
+  margin: 10rem;
+}
+
+.row {
+  text-align: center;
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1rem;
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+  line-height: 10;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.red {
+  background-color: red;
+  color: red;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+.red:hover {
+  background-color: pink;
+}
+
+.green {
+  background-color: green;
+  color: green;
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+.green:hover {
+  background-color: greenyellow;
+}
+
+.blue {
+  background-color: blue;
+  color: blue;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+.blue:hover {
+  background-color: skyblue;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.grey:hover {
+  background-color: black;
+}
+
+.position1 {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+.position2 {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+
+.position3 {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.position4 {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+
+.center {
+  position: static;
+}
